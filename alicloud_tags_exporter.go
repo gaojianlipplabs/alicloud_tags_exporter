@@ -1,10 +1,11 @@
 package main
 
 import (
-	"alicloud_tags_exporter/collector"
 	"flag"
 	"log"
 	"net/http"
+
+	"alicloud_tags_exporter/collector"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
